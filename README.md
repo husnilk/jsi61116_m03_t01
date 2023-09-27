@@ -1,5 +1,11 @@
 # Tugas M03 : Kelas dan Objek
 
+## Tujuan
+
+Tugas ini bertujuan untuk melatih kemampuan untuk membuat Kelas sesuai deskripsi yang telah ditentukan.
+
+## Deskripsi
+
 Buatlah sebuah kelas Pelanggan (member) yang memiliki property dan method berikut ini:
 
 Property	
@@ -17,3 +23,10 @@ Method:
 _Note:_
 * _Seluruh property dan method memiliki akses modifier public._
 * _Penamaan properti dan method mengikuti saran penamaan identifier_
+
+ ## Prosedur
+
+ 1. Clone repository ini
+ 2. Bukalah source code yang telah diclone dengan VS Code
+ 3. Buatlah kelas `Pelanggan` sesuai deskripsi diatas pada VS Code.
+ 4. Jika kode yang dibuat telah sesuai deskripsi diatas, commit dan kemudian push ke github.
