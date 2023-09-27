@@ -35,7 +35,7 @@ public class AppTest
     public void testNoHPPropertyAvailable(){
         try {
 			Class<?> pelangganClass = Class.forName("id.ac.unand.fti.si.pbo.Pelanggan");
-			pelangganClass.getField("noHP");
+			pelangganClass.getField("noHp");
 		}catch(NoSuchFieldException e) {
 			assertTrue(false, "Property noHP tidak ditemukan");
 		}catch(ClassNotFoundException e) {
@@ -111,7 +111,7 @@ public class AppTest
             
             Pelanggan pelanggan = new Pelanggan();
             pelanggan.updateNoHp("+628393938");
-            assertEquals("+628393938", pelanggan.noHP);
+            assertEquals("+628393938", pelanggan.noHp);
 		}catch(NoSuchMethodException e) {
 			assertTrue(false, "method UpdateNoHP tidak ditemukan");
 		}catch(ClassNotFoundException e) {

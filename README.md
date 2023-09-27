@@ -16,9 +16,9 @@ Property
 * Status // 1 = aktif, 0 = non-aktif
 
 Method:
-* Menonaktifkan diri sendiri  - method ini akan menonaktifkan pelanggan yaitu dengan menset property status menjadi 0
-* Update No HP - method ini akan mengupdate data no Hp pelanggan sesuai dengan data nohp baru yang diberikan.
-* Update Email - method ini akan mengupdate email pelanggan sesuai dengan data baru yang diberikan.
+* Menonaktifkan diri sendiri  - method ini akan menonaktifkan pelanggan yaitu dengan menset property status menjadi 0. Nama method `deactivate()`
+* Update No HP - method ini akan mengupdate data no Hp pelanggan sesuai dengan data nohp baru yang diberikan. Nama method yang digunaka adalah `updateNoHp()`
+* Update Email - method ini akan mengupdate email pelanggan sesuai dengan data baru yang diberikan. Nama method yang digunakan adalah `updateEmail()`
 
 _Note:_
 * _Seluruh property dan method memiliki akses modifier public._
